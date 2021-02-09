@@ -7,12 +7,15 @@
   "author": "Geoffrey Roguelon <geoffrey@regalii.com>",
   "license": "MIT",
   "bugs": {
-    "url" : "https://github.com/regalii/regaliator_node/issues",
+    "url" : "https://github.com/getOyster/regaliator_node/issues",
     "email" : "contact@regalii.com"
   },
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/regalii/regaliator_node.git"
+    "url" : "https://github.com/getOyster/regaliator_node.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@getOyster"
   },
   "engines" : {
     "node" : ">=4.7.2 <=8.4.0"
